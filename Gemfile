@@ -11,7 +11,7 @@ group :development do
 end
 
 #for Heroku
-group :development do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
